@@ -1,119 +1,167 @@
-<!-- Banner (customize with your own or use free banner makers like Canva) -->
 <p align="center">
-  <img src="https://github.com/ANUVIK2401/ANUVIK2401/assets/banner.png" width="100%" alt="Banner"/>
+  <img src="https://media.giphy.com/media/ASd0Ukj0y3qMM/giphy.gif" alt="Geeky Animation Banner" width="100%"/>
 </p>
 
-<div align="center">
+<pre align="center">
+    ____        _   _ _   _      
+   / ___|  ___ | |_| (_) |_ ___ 
+   \___ \ / _ \| __| | | __/ _ \
+    ___) | (_) | |_| | | ||  __/
+   |____/ \___/ \__|_|_|\__\___|
+</pre>
 
-![Profile Views](https://komarev.com/ghpvc/?username=ANUVIK2401&style=flat-square&color=brightgreen)
-![Followers](https://img.shields.io/github/followers/ANUVIK2401?style=social)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin)](https://linkedin.com/in/anuvik-thota)
-[![Portfolio](https://img.shields.io/badge/Portfolio-222222?style=flat&logo=vercel&logoColor=white)](https://anuvik-portfolio.netlify.app/)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white)](mailto:athota@usc.edu)
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=ANUVIK2401&style=flat-square&color=brightgreen" alt="Profile Views"/>
+  <img src="https://img.shields.io/github/followers/ANUVIK2401?style=social&label=Followers" alt="Followers"/>
+  <a href="https://linkedin.com/in/anuvik-thota">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="https://anuvik-portfolio.netlify.app/">
+    <img src="https://img.shields.io/badge/Portfolio-222222?style=flat&logo=vercel&logoColor=white" alt="Portfolio"/>
+  </a>
+  <a href="mailto:athota@usc.edu">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white" alt="Email"/>
+  </a>
 </div>
 
 ---
 
-<h1 align="center">Hi 👋, I'm <span style="color:#3f51b5">Anuvik Thota</span></h1>
-<h3 align="center">MSCS @ USC | Ex-Oracle SWE | AI/ML • Full Stack Developer | Open Source Contributor</h3>
-
----
+# Hi 👋, I'm **Anuvik Thota**
+### MSCS @ USC | Ex-Oracle SWE | AI/ML & Full-Stack Developer | Open Source Contributor
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&width=435&lines=Building+impactful+solutions+in+AI%2C+ML%2C+and+Web+Dev;Open+to+collaborations+and+research+projects!;Let%27s+connect+and+build+together!" alt="Typing SVG" />
+  <img
+    src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&width=500&lines=Building+AI-driven+solutions;Crafting+immersive+web+experiences;Always+learning+and+collaborating!"
+    alt="Typing SVG"
+  />
 </div>
 
 ---
 
 ## 🚀 About Me
-
-- 🧑‍💻 **Software Developer (3 years, Oracle NetSuite GBU)** – Delivered impactful features, improved developer efficiency, and led cross-team initiatives.
-- 🎓 **MS in Computer Science, USC** (GPA: 3.85/4)
-- 🤖 **Passionate about**: AI, ML, Graph Neural Networks, Generative AI, Full Stack Projects
-- 🏆 **Hackathon Winner | Oracle Certified | ML Researcher**
-- 🌎 **Fun fact:** I love making tech accessible and mentoring new devs.
+- 🧑‍💻 **Software Developer** (3 yrs @ Oracle NetSuite GBU)  
+- 🎓 **Master’s in Computer Science**, USC  
+- 🤖 Passionate about **Graph Neural Nets, Generative AI, FastAPI, React**  
+- 🏆 Hackathon Winner | Oracle-Cert. Java & GenAI | ML Researcher  
+- 🌐 Mentor & community advocate—love teaching and learning  
 
 ---
 
-## 🛠️ Tech Stack
-
+## 🛠 Tech Stack
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,java,js,typescript,react,html,css,fastapi,nodejs,express,pytorch,dgl,mysql,oracle,sqlite,git,github,linux,aws,bash,vscode,figma" />
+  <img
+    src="https://skillicons.dev/icons?i=python,java,js,ts,react,nodejs,express,fastapi,pytorch,dgl,mysql,oracle,git,github,linux,aws,vscode,figma,sqlite"
+    alt="Tech Icons"
+  />
 </p>
 
 ---
 
-## 📊 GitHub Stats & Achievements
+## 📊 GitHub Stats & Activity
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ANUVIK2401&show_icons=true&theme=tokyonight&hide=prs,issues&count_private=true" width="420" />
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=ANUVIK2401&theme=tokyonight" width="420"/>
+  <img
+    src="https://github-readme-stats.vercel.app/api?username=ANUVIK2401&show_icons=true&theme=tokyonight&count_private=true&hide=prs,issues"
+    width="45%"
+    alt="GitHub Stats"
+  />
+  <img
+    src="https://github-readme-streak-stats.herokuapp.com?user=ANUVIK2401&theme=tokyonight"
+    width="45%"
+    alt="GitHub Streak"
+  />
 </div>
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=ANUVIK2401&theme=gruvbox&column=7"/>
+  <img
+    src="https://activity-graph.herokuapp.com/graph?username=ANUVIK2401&theme=monokai&area=true&hide_border=true"
+    width="90%"
+    alt="Last 30 Days Contributions"
+  />
 </div>
 
 ---
 
-## 🏅 Certifications & Awards
+## 🌟 Featured Projects
 
-| Certification | Description |
-|---|---|
-| Oracle Cloud Infrastructure AI & GenAI | Foundations Associate & Professional |
-| Oracle Certified Associate | Java SE 8 Programmer |
-| Hackathon Winner | 3rd Prize, CSI - UI Hackathon |
-| Best Volunteer | Street Cause Vasavi |
-
----
-
-## 🚩 Featured Projects
-
-<table>
+<table align="center">
   <tr>
-    <td>
-      <b>GNN Fraud Detection</b><br>
-      <a href="https://github.com/ANUVIK2401/GNN-fraud-detection"><img src="https://github.com/ANUVIK2401/GNN-fraud-detection/raw/main/images/demo.png" width="200"></a><br>
-      Heterogeneous GNN for fraud detection (726K+ nodes, 19.5M+ edges, 92% ROC AUC).<br>
-      <a href="https://github.com/ANUVIK2401/GNN-fraud-detection">Repo</a> | <a href="https://link.springer.com/chapter/10.1007/978-981-99-2742-5_78">Paper</a>
+    <td align="center">
+      <strong>GNN Fraud Detection</strong><br>
+      <a href="https://github.com/ANUVIK2401/GNN-fraud-detection">
+        <img
+          src="https://github.com/ANUVIK2401/GNN-fraud-detection/raw/main/assets/demo.gif"
+          width="150"
+          alt="GNN Fraud Demo"
+        />
+      </a><br>
+      <code>Python</code> • <code>PyTorch</code> • <code>DGL</code>
     </td>
-    <td>
-      <b>Movie Recommendation System</b><br>
-      <a href="https://github.com/ANUVIK2401/Movie-Recommendation-System-on-Big-Data"><img src="https://github.com/ANUVIK2401/Movie-Recommendation-System-on-Big-Data/raw/main/images/demo.png" width="200"></a><br>
-      Big Data hybrid ML system (CURE clustering, collaborative/content filtering).<br>
-      <a href="https://github.com/ANUVIK2401/Movie-Recommendation-System-on-Big-Data">Repo</a> | <a href="https://link.springer.com/chapter/10.1007/978-981-99-2742-5_78">Paper</a>
+    <td align="center">
+      <strong>Movie Recommender</strong><br>
+      <a href="https://github.com/ANUVIK2401/Movie-Recommendation-System-on-Big-Data">
+        <img
+          src="https://github.com/ANUVIK2401/Movie-Recommendation-System-on-Big-Data/raw/main/assets/demo.gif"
+          width="150"
+          alt="Movie Rec Demo"
+        />
+      </a><br>
+      <code>PySpark</code> • <code>Content-Filtering</code>
     </td>
-    <td>
-      <b>IoT Enabled Oximeter</b><br>
-      <a href="https://github.com/ANUVIK2401/IoT--Enabled-Oximeter"><img src="https://github.com/ANUVIK2401/IoT--Enabled-Oximeter/raw/main/images/demo.png" width="200"></a><br>
-      Real-time health monitoring (ESP32, sensors, dashboard).<br>
-      <a href="https://github.com/ANUVIK2401/IoT--Enabled-Oximeter">Repo</a> | <a href="https://youtu.be/27rSoMzAp3Y?feature=shared">Video</a>
+    <td align="center">
+      <strong>IoT-Enabled Oximeter</strong><br>
+      <a href="https://github.com/ANUVIK2401/IoT--Enabled-Oximeter">
+        <img
+          src="https://github.com/ANUVIK2401/IoT--Enabled-Oximeter/raw/main/assets/demo.gif"
+          width="150"
+          alt="Oximeter Demo"
+        />
+      </a><br>
+      <code>ESP32</code> • <code>Python</code>
     </td>
-    <td>
-      <b>Portfolio Website</b><br>
-      <a href="https://anuvik-portfolio.netlify.app/"><img src="https://github.com/ANUVIK2401/anuvik-thota-portfolio-verse/raw/main/images/demo.png" width="200"></a><br>
-      React + 3D animations, TypeScript.<br>
-      <a href="https://github.com/ANUVIK2401/anuvik-thota-portfolio-verse">Repo</a> | <a href="https://anuvik-portfolio.netlify.app/">Live</a>
+    <td align="center">
+      <strong>Portfolio Website</strong><br>
+      <a href="https://anuvik-portfolio.netlify.app/">
+        <img
+          src="https://github.com/ANUVIK2401/anuvik-thota-portfolio-verse/raw/main/assets/demo.gif"
+          width="150"
+          alt="Portfolio Demo"
+        />
+      </a><br>
+      <code>React</code> • <code>TypeScript</code> • <code>3D</code>
     </td>
   </tr>
 </table>
 
 ---
 
-## 🌐 Find Me Around the Web
+## 🏅 Certifications & Hackathons
+
+<div align="center">
+  <img src="https://img.shields.io/badge/OCI-GenAI-blue" alt="OCI GenAI"/>
+  <img src="https://img.shields.io/badge/Java_SE_8-orange" alt="Java SE 8"/>
+  <img src="https://img.shields.io/badge/CSI_UI_Hack-3rd-purple" alt="CSI UI Hackathon"/>
+</div>
+
+---
+
+## 📫 Let’s Connect
 
 <p align="center">
-  <a href="https://linkedin.com/in/anuvik-thota"><img src="https://img.shields.io/badge/LinkedIn-0072b1?logo=linkedin&logoColor=white"></a>
-  <a href="mailto:athota@usc.edu"><img src="https://img.shields.io/badge/Gmail-D14836?logo=gmail&logoColor=white"></a>
-  <a href="https://anuvik-portfolio.netlify.app/"><img src="https://img.shields.io/badge/Portfolio-222222?logo=vercel&logoColor=white"></a>
-  <a href="https://github.com/ANUVIK2401"><img src="https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white"></a>
+  <a href="https://linkedin.com/in/anuvik-thota">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="mailto:athota@usc.edu">
+    <img src="https://img.shields.io/badge/Gmail-D14836?logo=gmail&logoColor=white" alt="Email"/>
+  </a>
+  <a href="https://anuvik-portfolio.netlify.app/">
+    <img src="https://img.shields.io/badge/Portfolio-222222?logo=vercel&logoColor=white" alt="Portfolio"/>
+  </a>
+  <a href="https://github.com/ANUVIK2401">
+    <img src="https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white" alt="GitHub"/>
+  </a>
 </p>
 
 ---
 
-> **“Always open to learning from the community and contributing to impactful projects!”**
-
----
-
-<!-- Optional: Add a visitor counter, dynamic widgets, or GitHub activity chart here if you like! -->
-
+> **Always learning, always building—let’s connect!** 🖖
