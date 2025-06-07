@@ -1,6 +1,3 @@
-<p align="center">
-  <img src="https://media.giphy.com/media/ASd0Ukj0y3qMM/giphy.gif" alt="Geeky Animation Banner" width="100%"/>
-</p>
 
 <pre align="center">
     ____        _   _ _   _      
