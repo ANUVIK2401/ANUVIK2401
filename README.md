@@ -1,19 +1,3 @@
-<!-- ==================  BANNER  ================== -->
-<p align="center">
-  <!-- Retro terminal GIF -->
-  <img src="https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif" width="100%" alt="Animated terminal banner">
-</p>
-
-<!-- =================  LOGO ASCII  ================ -->
-<pre align="center">
-
-     ___         _       _      _     _____ _           _       
-    / _ \ _ __  (_) ___ | | ___| |_  |_   _| |__   ___ | | ___  
-   | | | | '_ \ | |/ _ \| |/ _ \ __|   | | | '_ \ / _ \| |/ _ \ 
-   | |_| | | | || | (_) | |  __/ |_    | | | | | | (_) | |  __/ 
-    \___/|_| |_|/ |\___/|_|\___|\__|   |_| |_| |_|\___/|_|\___| 
-              |__/                                               
-</pre>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=ANUVIK2401&style=flat-square&color=brightgreen" alt="profile views">
