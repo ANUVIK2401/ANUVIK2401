@@ -113,10 +113,11 @@
 
 | 🚀 Project | 💻 Tech Stack | 🔗 Links |
 |:-----------|:-------------|:---------|
+| **LLM-MCP Travel Orchestrator** | Python • LangChain • GPT‑4o‑mini • Streamlit | [Repository](https://github.com/ANUVIK2401/LLM-MCP-Travel-Orchestrator) |
 | **GNN Fraud Detection** | PyTorch • DGL • Graph Networks | [Repository](https://github.com/ANUVIK2401/GNN-fraud-detection) |
 | **Hybrid Recommender System** | PySpark • Machine Learning • Big Data | [Repository](https://github.com/ANUVIK2401/Movie-Recommendation-System-on-Big-Data) |
 | **IoT Health Monitor** | ESP32 • MicroPython • Edge Computing | [Repository](https://github.com/ANUVIK2401/IoT--Enabled-Oximeter) |
-| **Interactive Portfolio** | React • TypeScript • Modern Web | [Live Site](https://anuvik-portfolio.netlify.app) • [Code](https://github.com/ANUVIK2401/anuvik-thota-portfolio-verse) |
+| **Interactive Portfolio** | React • TypeScript • Modern Web | [Live Site](https://anuvik-portfolio.netlify.app)  |
 
 </div>
 
