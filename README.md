@@ -4,7 +4,7 @@
 
 <a href="https://linkedin.com/in/anuvik-thota"><img src="https://img.shields.io/badge/LINKEDIN-282a36?style=for-the-badge&logo=linkedin&logoColor=8be9fd"/></a>
 <a href="https://anuvik-portfolio.netlify.app/"><img src="https://img.shields.io/badge/PORTFOLIO-282a36?style=for-the-badge&logo=vercel&logoColor=50fa7b"/></a>
-<a href="mailto:anuvthot@gmail.com"><img src="https://img.shields.io/badge/EMAIL-282a36?style=for-the-badge&logo=gmail&logoColor=ff79c6"/></a>
+<a href="mailto:anuvikt@gmail.com"><img src="https://img.shields.io/badge/EMAIL-282a36?style=for-the-badge&logo=gmail&logoColor=ff79c6"/></a>
 
 <br/><br/>
 

@@ -45,7 +45,7 @@
   <g class="mono">
     <!-- boot -->
     <text x="28" y="74" class="line l1"><tspan class="green">➜</tspan><tspan class="cyan" dx="10">~</tspan><tspan class="fg" dx="10">./anuvik --init</tspan></text>
-    <text x="28" y="104" class="line l2 big" filter="url(#glow)"><tspan class="purple">ANUVIK THOTA</tspan><tspan class="dim" dx="12">·</tspan><tspan class="cyan" dx="12">AI / ML Systems Engineer</tspan></text>
+    <text x="28" y="104" class="line l2 big" filter="url(#glow)"><tspan class="purple" style="fill:url(#nbd)" letter-spacing="1">ANUVIK THOTA</tspan><tspan class="dim" dx="12">·</tspan><tspan class="cyan" dx="12">AI / ML Systems Engineer</tspan></text>
     <text x="28" y="128" class="line l3"><tspan class="dim">└─</tspan><tspan class="fg" dx="8">MSCS @ USC</tspan><tspan class="dim" dx="8">·</tspan><tspan class="fg" dx="8">ex-Oracle SWE II</tspan><tspan class="dim" dx="8">·</tspan><tspan class="fg" dx="8">AI FDE @ MSRcosmos</tspan></text>
 
     <!-- skill bars -->
@@ -54,17 +54,17 @@
     <text x="28" y="194" class="line l5"><tspan class="pink">LLM Inference</tspan></text>
     <rect x="220" y="184" width="480" height="12" rx="6" fill="#44475a" class="line l5"/>
     <rect x="220" y="184" width="450" height="12" rx="6" fill="#ff79c6" class="bar b1" filter="url(#glow)"/>
-    <text x="712" y="194" class="line l5 dim sm">94%</text>
+    <text x="712" y="194" class="line l5 pink sm">94%</text>
 
     <text x="28" y="222" class="line l6"><tspan class="cyan">Agents / LangGraph</tspan></text>
     <rect x="220" y="212" width="480" height="12" rx="6" fill="#44475a" class="line l6"/>
     <rect x="220" y="212" width="430" height="12" rx="6" fill="#8be9fd" class="bar b2" filter="url(#glow)"/>
-    <text x="712" y="222" class="line l6 dim sm">90%</text>
+    <text x="712" y="222" class="line l6 cyan sm">90%</text>
 
     <text x="28" y="250" class="line l7"><tspan class="green">Prod Observability</tspan></text>
     <rect x="220" y="240" width="480" height="12" rx="6" fill="#44475a" class="line l7"/>
     <rect x="220" y="240" width="460" height="12" rx="6" fill="#50fa7b" class="bar b3" filter="url(#glow)"/>
-    <text x="712" y="250" class="line l7 dim sm">96%</text>
+    <text x="712" y="250" class="line l7 green sm">96%</text>
 
     <!-- receipts -->
     <text x="28" y="292" class="line l8"><tspan class="green">➜</tspan><tspan class="cyan" dx="10">~</tspan><tspan class="fg" dx="10">grep -r "impact" career/</tspan></text>
@@ -72,6 +72,6 @@
 
     <!-- contact -->
     <text x="28" y="360" class="line l10"><tspan class="green">➜</tspan><tspan class="cyan" dx="10">~</tspan><tspan class="fg" dx="10">./contact --hire</tspan></text>
-    <text x="28" y="386" class="line l11"><tspan class="pink">✉</tspan><tspan class="fg" dx="10">anuvthot@gmail.com</tspan><tspan class="dim" dx="14">·</tspan><tspan class="purple" dx="14">⌖</tspan><tspan class="fg" dx="10">Los Angeles, CA</tspan><tspan class="fg cursor" dx="12">▊</tspan></text>
+    <text x="28" y="386" class="line l11"><tspan class="pink">✉</tspan><tspan class="cyan" dx="10">anuvikt@gmail.com</tspan><tspan class="dim" dx="14">·</tspan><tspan class="purple" dx="14">⌖</tspan><tspan class="fg" dx="10">Los Angeles, CA</tspan><tspan class="fg cursor" dx="12">▊</tspan></text>
   </g>
 </svg>
