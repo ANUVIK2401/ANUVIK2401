@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="52" viewBox="0 0 820 52" fill="none">
+  <defs>
+    <linearGradient id="nbd" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#bd93f9"/><stop offset="0.5" stop-color="#8be9fd"/><stop offset="1" stop-color="#ff79c6"/>
+    </linearGradient>
+    <linearGradient id="pbg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1c1d2b"/><stop offset="1" stop-color="#101018"/>
+    </linearGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="2.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <style>
+    .mono { font-family:'SF Mono','Fira Code','JetBrains Mono',Menlo,Consolas,monospace; font-size:14px; }
+    .sm { font-size:12px; }
+    .green{fill:#50fa7b}.cyan{fill:#8be9fd}.fg{fill:#f8f8f2}.dim{fill:#6272a4}
+    .cursor{animation:blink 1s step-end infinite}
+    @keyframes blink{50%{opacity:0}}
+  </style>
+  <rect x="1" y="1" width="818" height="50" rx="10" fill="#10111a" stroke="url(#nbd)" stroke-width="2"/>
+  <rect x="1" y="8" width="4" height="36" rx="2" fill="#f1fa8c" filter="url(#glow)"/>
+  <g class="mono">
+    <text x="26" y="31"><tspan class="green">➜</tspan><tspan class="cyan" dx="10">~</tspan><tspan class="fg" dx="10">neofetch --github</tspan><tspan class="fg cursor" dx="8">▊</tspan></text>
+    <text x="794" y="31" text-anchor="end" class="sm dim"># commits · languages · creds</text>
+  </g>
+  <rect x="26" y="18" width="200" height="18" fill="#10111a">
+    <animate attributeName="x" from="26" to="226" dur="0.9s" begin="0.3s" calcMode="discrete" values="26;54;84;116;148;178;204;226" fill="freeze"/>
+    <animate attributeName="width" from="200" to="0" dur="0.9s" begin="0.3s" calcMode="discrete" values="200;172;142;110;78;48;22;0" fill="freeze"/>
+  </rect>
+</svg>
