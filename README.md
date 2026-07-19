@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/terminal.svg" alt="Anuvik Thota — AI/ML Systems Engineer" width="100%"/>
+<img src="assets/terminal.svg?v=2" alt="Anuvik Thota — AI/ML Systems Engineer" width="100%"/>
 
 <a href="https://linkedin.com/in/anuvik-thota"><img src="https://img.shields.io/badge/LINKEDIN-282a36?style=for-the-badge&logo=linkedin&logoColor=8be9fd"/></a>
 <a href="https://anuvik-portfolio.netlify.app/"><img src="https://img.shields.io/badge/PORTFOLIO-282a36?style=for-the-badge&logo=vercel&logoColor=50fa7b"/></a>
