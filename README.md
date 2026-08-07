@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/terminal.svg?v=2" alt="Anuvik Thota — AI/ML Systems Engineer" width="100%"/>
+<img src="assets/hero.svg?v=1" alt="Anuvik Thota — AI/ML Systems Engineer" width="100%"/>
 
 <a href="https://linkedin.com/in/anuvik-thota"><img src="https://img.shields.io/badge/LINKEDIN-282a36?style=for-the-badge&logo=linkedin&logoColor=8be9fd"/></a>
 <a href="https://anuvik-portfolio.netlify.app/"><img src="https://img.shields.io/badge/PORTFOLIO-282a36?style=for-the-badge&logo=vercel&logoColor=50fa7b"/></a>
@@ -12,8 +12,12 @@
 
 <br/><br/>
 
-<img width="49%" src="assets/ai-pipeline.svg" alt="AI agent pipeline — LangGraph, MCP, RAG, INT4 LLM inference"/>
-<img width="49%" src="assets/cloud-infra.svg" alt="Cloud infra — AWS EKS pods with HPA and Prometheus observability"/>
+<table>
+<tr>
+<td width="50%" align="center"><img width="100%" src="assets/ai-pipeline.svg" alt="AI agent pipeline — LangGraph, MCP, RAG, INT4 LLM inference"/></td>
+<td width="50%" align="center"><img width="100%" src="assets/cloud-infra.svg" alt="Cloud infra — AWS EKS pods with HPA and Prometheus observability"/></td>
+</tr>
+</table>
 
 </div>
 
@@ -22,11 +26,13 @@
 <img src="assets/header-projects.svg" width="100%" alt="ls projects/ --sort=impact"/>
 
 <div align="center">
-
-<a href="https://github.com/ANUVIK2401/modelscope"><img width="32.5%" src="assets/card-modelscope.svg" alt="ModelScope — LLM quantization benchmark, INT4 Pareto-optimal, −62% VRAM"/></a>
-<a href="https://github.com/ANUVIK2401/pacific-context-eval"><img width="32.5%" src="assets/card-pacific.svg" alt="Pacific Context Eval — time-decay freshness gate for financial RAG"/></a>
-<a href="https://github.com/ANUVIK2401/GNN-fraud-detection"><img width="32.5%" src="assets/card-gnn.svg" alt="GNN Fraud Detection — HeteroRGCN, 726K nodes, 92% ROC-AUC"/></a>
-
+<table>
+<tr>
+<td width="33.3%" align="center"><a href="https://github.com/ANUVIK2401/modelscope"><img width="100%" src="assets/card-modelscope.svg" alt="ModelScope — LLM quantization benchmark, INT4 Pareto-optimal, −62% VRAM"/></a></td>
+<td width="33.3%" align="center"><a href="https://github.com/ANUVIK2401/pacific-context-eval"><img width="100%" src="assets/card-pacific.svg" alt="Pacific Context Eval — time-decay freshness gate for financial RAG"/></a></td>
+<td width="33.3%" align="center"><a href="https://github.com/ANUVIK2401/GNN-fraud-detection"><img width="100%" src="assets/card-gnn.svg" alt="GNN Fraud Detection — HeteroRGCN, 726K nodes, 92% ROC-AUC"/></a></td>
+</tr>
+</table>
 </div>
 
 | | Project | Proof of work | Stack |
@@ -44,26 +50,28 @@
 <img src="assets/header-career.svg" width="100%" alt="git log career/ --stat"/>
 
 ```diff
-+ 2026–now — MSRcosmos LLC · AI Forward Deployed SWE Intern
-!        Production LangGraph multi-agent service on AWS — Sage X3 → Sage Intacct ERP migration
-!        70% less manual reconciliation across thousands of GL/AP/AR records
-!        Confidence-based human-in-the-loop validation · zero data loss, audit-ready
-!        Sole engineer on Sage REST API + MCP agent tooling · handoff cycles: days → hours
++ May 2026–now — MSRcosmos LLC · AI Forward Deployed SWE Intern · Los Angeles, CA
+!        LangGraph multi-agent service on AWS — Sage X3 → Sage Intacct ERP migration
+!        Pilot cut manual reconciliation ~70% across 10,000+ GL/AP/AR records
+!        Sage X3 extraction on Databricks + PySpark · 15+ financial tables staged into Delta
+!        Sage REST APIs + MCP agent tooling · ~85% auto-approved above confidence threshold
+!        Per-entity turnaround 3 days → under 6 hours across 12 client entities
 
-+ 2025 — USC · AI/ML Research Intern
-!        DQN reward + state-action redesign: RL training cycle 6+ hours → 10 minutes
-!        Multi-GPU pipeline restructure → +18% agent task completion vs rule-based baselines
-!        Distributed experiment tracking (REST + SQL) across 5+ parallel GPU runs
++ Jun–Sep 2025 — USC · AI/ML Research Intern · Los Angeles, CA
+!        DQN reward + state-action redesign → RL training cycle 3x faster: ~6h → under 2h
+!        Fixed multi-GPU data-loader bottlenecks → +18% agent task completion vs baselines
+!        FastAPI + PostgreSQL experiment tracking across 5+ parallel GPU runs · 4+ hrs/week saved
 
-+ 2022–2025 — Oracle · Software Engineer II
++ Jul 2022–Jan 2025 — Oracle · Software Engineer II · Hyderabad, IN
 !        Prometheus/Grafana observability for Oracle NSX across 37,000+ enterprise tenants
-!        P1 MTTR 90 → 25 min (72%) · real-time diagnostics over 1M+ monitored endpoints
-!        P1 on-call escalations −40% via automated root-cause tagging on 4xx/5xx failures
+!        40+ dashboards and alert rules · SLOs on CPU, memory, p99 latency
+!        Real-time API diagnostics over 1M+ endpoints → P1 MTTR 90 → 25 min
 !        NetSuite SQL query-plan + index restructuring → 30% P50 latency cut
-!        CLI toolchain adopted by 4 teams · release cycle −35% · K8s HPA on OCI, infra −25%
+!        CLI toolchain + Jenkins CI/CD adopted by 4 teams · release cycles −35%
+!        Docker/K8s on OCI with custom-metric HPA · held p99 SLOs at 2x peak load
 
-+ 2025–2026 — USC · MS Computer Science · GPA 3.85 (Dec 2026)
-!        TA, CSCI 564 Big Data · AI Project Specialist, USC AI Trust Lab
++ Jan 2025–Dec 2026 — USC · MS Computer Science · GPA 3.85
++ Jun 2022 — Vasavi College of Engineering, Osmania University · BTech CS · GPA 3.58
 ```
 
 <br/>
@@ -86,8 +94,12 @@
 
 <div align="center">
 
-<img width="48%" src="https://github-readme-stats.vercel.app/api?username=ANUVIK2401&show_icons=true&hide_border=true&bg_color=282a36&title_color=8be9fd&icon_color=bd93f9&text_color=f8f8f2&ring_color=50fa7b" />
-<img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ANUVIK2401&layout=compact&hide_border=true&bg_color=282a36&title_color=8be9fd&text_color=f8f8f2" />
+<table>
+<tr>
+<td width="50%" align="center"><img width="100%" src="https://github-readme-stats.vercel.app/api?username=ANUVIK2401&show_icons=true&hide_border=true&bg_color=282a36&title_color=8be9fd&icon_color=bd93f9&text_color=f8f8f2&ring_color=50fa7b" /></td>
+<td width="50%" align="center"><img width="100%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ANUVIK2401&layout=compact&hide_border=true&bg_color=282a36&title_color=8be9fd&text_color=f8f8f2" /></td>
+</tr>
+</table>
 
 </div>
 
