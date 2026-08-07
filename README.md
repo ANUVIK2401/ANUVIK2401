@@ -2,9 +2,9 @@
 
 <img src="assets/hero.svg?v=1" alt="Anuvik Thota — AI/ML Systems Engineer" width="100%"/>
 
-<a href="https://linkedin.com/in/anuvik-thota"><img src="https://img.shields.io/badge/LINKEDIN-282a36?style=for-the-badge&logo=linkedin&logoColor=8be9fd"/></a>
-<a href="https://anuvik-portfolio.netlify.app/"><img src="https://img.shields.io/badge/PORTFOLIO-282a36?style=for-the-badge&logo=vercel&logoColor=50fa7b"/></a>
-<a href="mailto:anuvikt@gmail.com"><img src="https://img.shields.io/badge/EMAIL-282a36?style=for-the-badge&logo=gmail&logoColor=ff79c6"/></a>
+<a href="https://linkedin.com/in/anuvik-thota"><img src="https://img.shields.io/badge/LINKEDIN-0d0f14?style=for-the-badge&logo=linkedin&logoColor=7dffb8"/></a>
+<a href="https://anuvik-portfolio.netlify.app/"><img src="https://img.shields.io/badge/PORTFOLIO-0d0f14?style=for-the-badge&logo=vercel&logoColor=00e676"/></a>
+<a href="mailto:anuvikt@gmail.com"><img src="https://img.shields.io/badge/EMAIL-0d0f14?style=for-the-badge&logo=gmail&logoColor=ff6b6b"/></a>
 
 <br/><br/>
 
@@ -49,44 +49,21 @@
 
 <img src="assets/header-career.svg" width="100%" alt="git log career/ --stat"/>
 
-```diff
-+ May 2026–now — MSRcosmos LLC · AI Forward Deployed SWE Intern · Los Angeles, CA
-!        LangGraph multi-agent service on AWS — Sage X3 → Sage Intacct ERP migration
-!        Pilot cut manual reconciliation ~70% across 10,000+ GL/AP/AR records
-!        Sage X3 extraction on Databricks + PySpark · 15+ financial tables staged into Delta
-!        Sage REST APIs + MCP agent tooling · ~85% auto-approved above confidence threshold
-!        Per-entity turnaround 3 days → under 6 hours across 12 client entities
-
-+ Jun–Sep 2025 — USC · AI/ML Research Intern · Los Angeles, CA
-!        DQN reward + state-action redesign → RL training cycle 3x faster: ~6h → under 2h
-!        Fixed multi-GPU data-loader bottlenecks → +18% agent task completion vs baselines
-!        FastAPI + PostgreSQL experiment tracking across 5+ parallel GPU runs · 4+ hrs/week saved
-
-+ Jul 2022–Jan 2025 — Oracle · Software Engineer II · Hyderabad, IN
-!        Prometheus/Grafana observability for Oracle NSX across 37,000+ enterprise tenants
-!        40+ dashboards and alert rules · SLOs on CPU, memory, p99 latency
-!        Real-time API diagnostics over 1M+ endpoints → P1 MTTR 90 → 25 min
-!        NetSuite SQL query-plan + index restructuring → 30% P50 latency cut
-!        CLI toolchain + Jenkins CI/CD adopted by 4 teams · release cycles −35%
-!        Docker/K8s on OCI with custom-metric HPA · held p99 SLOs at 2x peak load
-
-+ Jan 2025–Dec 2026 — USC · MS Computer Science · GPA 3.85
-+ Jun 2022 — Vasavi College of Engineering, Osmania University · BTech CS · GPA 3.58
-```
+<img src="assets/career.svg" width="100%" alt="Career timeline — MSRcosmos, USC, Oracle, and education"/>
 
 <br/>
 
 <img src="assets/header-stack.svg" width="100%" alt="cat stack.yaml"/>
 
-**`languages:`** &nbsp; ![Python](https://img.shields.io/badge/Python-282a36?style=flat-square&logo=python&logoColor=8be9fd) ![Java](https://img.shields.io/badge/Java-282a36?style=flat-square&logo=openjdk&logoColor=ffb86c) ![Go](https://img.shields.io/badge/Go-282a36?style=flat-square&logo=go&logoColor=8be9fd) ![TypeScript](https://img.shields.io/badge/TypeScript-282a36?style=flat-square&logo=typescript&logoColor=8be9fd) ![C++](https://img.shields.io/badge/C++-282a36?style=flat-square&logo=c%2B%2B&logoColor=bd93f9) ![SQL](https://img.shields.io/badge/SQL-282a36?style=flat-square&logo=mysql&logoColor=50fa7b)
+**`languages:`** &nbsp; ![Python](https://img.shields.io/badge/Python-0d0f14?style=flat-square&logo=python&logoColor=7dffb8) ![Java](https://img.shields.io/badge/Java-0d0f14?style=flat-square&logo=openjdk&logoColor=ffab40) ![Go](https://img.shields.io/badge/Go-0d0f14?style=flat-square&logo=go&logoColor=7dffb8) ![TypeScript](https://img.shields.io/badge/TypeScript-0d0f14?style=flat-square&logo=typescript&logoColor=7dffb8) ![C++](https://img.shields.io/badge/C++-0d0f14?style=flat-square&logo=c%2B%2B&logoColor=ff2d46) ![SQL](https://img.shields.io/badge/SQL-0d0f14?style=flat-square&logo=mysql&logoColor=00e676)
 
-**`ml_ai:`** &nbsp; ![PyTorch](https://img.shields.io/badge/PyTorch-282a36?style=flat-square&logo=pytorch&logoColor=ff79c6) ![DGL](https://img.shields.io/badge/DGL-282a36?style=flat-square&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-282a36?style=flat-square&logo=scikit-learn&logoColor=f1fa8c) ![HuggingFace](https://img.shields.io/badge/HuggingFace-282a36?style=flat-square&logo=huggingface&logoColor=f1fa8c) ![CUDA](https://img.shields.io/badge/CUDA-282a36?style=flat-square&logo=nvidia&logoColor=50fa7b)
+**`ml_ai:`** &nbsp; ![PyTorch](https://img.shields.io/badge/PyTorch-0d0f14?style=flat-square&logo=pytorch&logoColor=ff6b6b) ![DGL](https://img.shields.io/badge/DGL-0d0f14?style=flat-square&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-0d0f14?style=flat-square&logo=scikit-learn&logoColor=ffd54f) ![HuggingFace](https://img.shields.io/badge/HuggingFace-0d0f14?style=flat-square&logo=huggingface&logoColor=ffd54f) ![CUDA](https://img.shields.io/badge/CUDA-0d0f14?style=flat-square&logo=nvidia&logoColor=00e676)
 
-**`llm_agents:`** &nbsp; ![LangGraph](https://img.shields.io/badge/LangGraph-282a36?style=flat-square&logo=langchain&logoColor=50fa7b) ![LangChain](https://img.shields.io/badge/LangChain-282a36?style=flat-square&logo=langchain&logoColor=50fa7b) ![MCP](https://img.shields.io/badge/MCP-282a36?style=flat-square&logoColor=white) ![RAG](https://img.shields.io/badge/RAG-282a36?style=flat-square&logoColor=ff79c6) ![vLLM](https://img.shields.io/badge/vLLM-282a36?style=flat-square&logoColor=bd93f9) ![llama.cpp](https://img.shields.io/badge/llama.cpp-282a36?style=flat-square&logoColor=white)
+**`llm_agents:`** &nbsp; ![LangGraph](https://img.shields.io/badge/LangGraph-0d0f14?style=flat-square&logo=langchain&logoColor=00e676) ![LangChain](https://img.shields.io/badge/LangChain-0d0f14?style=flat-square&logo=langchain&logoColor=00e676) ![MCP](https://img.shields.io/badge/MCP-0d0f14?style=flat-square&logoColor=white) ![RAG](https://img.shields.io/badge/RAG-0d0f14?style=flat-square&logoColor=ff6b6b) ![vLLM](https://img.shields.io/badge/vLLM-0d0f14?style=flat-square&logoColor=ff2d46) ![llama.cpp](https://img.shields.io/badge/llama.cpp-0d0f14?style=flat-square&logoColor=white)
 
-**`infra:`** &nbsp; ![AWS](https://img.shields.io/badge/AWS-282a36?style=flat-square&logo=amazonwebservices&logoColor=ffb86c) ![Docker](https://img.shields.io/badge/Docker-282a36?style=flat-square&logo=docker&logoColor=8be9fd) ![Kubernetes](https://img.shields.io/badge/Kubernetes-282a36?style=flat-square&logo=kubernetes&logoColor=8be9fd) ![FastAPI](https://img.shields.io/badge/FastAPI-282a36?style=flat-square&logo=fastapi&logoColor=50fa7b) ![Prometheus](https://img.shields.io/badge/Prometheus-282a36?style=flat-square&logo=prometheus&logoColor=ff5555) ![Grafana](https://img.shields.io/badge/Grafana-282a36?style=flat-square&logo=grafana&logoColor=ffb86c) ![Terraform](https://img.shields.io/badge/Terraform-282a36?style=flat-square&logo=terraform&logoColor=bd93f9)
+**`infra:`** &nbsp; ![AWS](https://img.shields.io/badge/AWS-0d0f14?style=flat-square&logo=amazonwebservices&logoColor=ffab40) ![Docker](https://img.shields.io/badge/Docker-0d0f14?style=flat-square&logo=docker&logoColor=7dffb8) ![Kubernetes](https://img.shields.io/badge/Kubernetes-0d0f14?style=flat-square&logo=kubernetes&logoColor=7dffb8) ![FastAPI](https://img.shields.io/badge/FastAPI-0d0f14?style=flat-square&logo=fastapi&logoColor=00e676) ![Prometheus](https://img.shields.io/badge/Prometheus-0d0f14?style=flat-square&logo=prometheus&logoColor=ff2d46) ![Grafana](https://img.shields.io/badge/Grafana-0d0f14?style=flat-square&logo=grafana&logoColor=ffab40) ![Terraform](https://img.shields.io/badge/Terraform-0d0f14?style=flat-square&logo=terraform&logoColor=ff2d46)
 
-**`data:`** &nbsp; ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-282a36?style=flat-square&logo=postgresql&logoColor=8be9fd) ![Kafka](https://img.shields.io/badge/Kafka-282a36?style=flat-square&logo=apachekafka&logoColor=f8f8f2) ![Redis](https://img.shields.io/badge/Redis-282a36?style=flat-square&logo=redis&logoColor=ff5555) ![Elasticsearch](https://img.shields.io/badge/Elasticsearch-282a36?style=flat-square&logo=elasticsearch&logoColor=f1fa8c) ![Spark](https://img.shields.io/badge/Spark-282a36?style=flat-square&logo=apachespark&logoColor=ffb86c)
+**`data:`** &nbsp; ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0d0f14?style=flat-square&logo=postgresql&logoColor=7dffb8) ![Kafka](https://img.shields.io/badge/Kafka-0d0f14?style=flat-square&logo=apachekafka&logoColor=e8ecf2) ![Redis](https://img.shields.io/badge/Redis-0d0f14?style=flat-square&logo=redis&logoColor=ff2d46) ![Elasticsearch](https://img.shields.io/badge/Elasticsearch-0d0f14?style=flat-square&logo=elasticsearch&logoColor=ffd54f) ![Spark](https://img.shields.io/badge/Spark-0d0f14?style=flat-square&logo=apachespark&logoColor=ffab40)
 
 <br/>
 
@@ -94,20 +71,17 @@
 
 <div align="center">
 
-<table>
-<tr>
-<td width="50%" align="center"><img width="100%" src="https://github-readme-stats.vercel.app/api?username=ANUVIK2401&show_icons=true&hide_border=true&bg_color=282a36&title_color=8be9fd&icon_color=bd93f9&text_color=f8f8f2&ring_color=50fa7b" /></td>
-<td width="50%" align="center"><img width="100%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ANUVIK2401&layout=compact&hide_border=true&bg_color=282a36&title_color=8be9fd&text_color=f8f8f2" /></td>
-</tr>
-</table>
+<img width="70%" src="https://streak-stats.demolab.com/?user=ANUVIK2401&hide_border=true&background=0D0F14&stroke=2B3240&ring=FF2D46&fire=FF2D46&currStreakLabel=7DFFB8&currStreakNum=E8ECF2&sideLabels=7DFFB8&sideNums=E8ECF2&dates=727F92" alt="GitHub contribution streak"/>
 
 </div>
 
-```text
-/certs/oci-generative-ai-professional          Oracle Cloud Infrastructure
-/certs/oracle-certified-professional-java-se8  Oracle
-/papers/movie-recommendation-system-2022       Springer publication
-```
+<div align="center">
+
+![OCI Generative AI Professional](https://img.shields.io/badge/OCI_Generative_AI_Professional-0d0f14?style=flat-square&logo=oracle&logoColor=ff2d46&labelColor=0d0f14)
+![Oracle Certified Professional Java SE 8](https://img.shields.io/badge/Oracle_Certified_Professional_·_Java_SE_8-0d0f14?style=flat-square&logo=openjdk&logoColor=ffab40&labelColor=0d0f14)
+![Springer 2022](https://img.shields.io/badge/Springer_2022_·_Hybrid_Recommender-0d0f14?style=flat-square&logo=springer&logoColor=00e676&labelColor=0d0f14)
+
+</div>
 
 <br/>
 
@@ -117,10 +91,11 @@
 
 <br/><br/>
 
-```text
-➜ ~ echo $OPEN_TO
-LLM inference infra · applied ML · agentic systems · production ML systems
-```
+<code>➜ ~ echo $OPEN_TO</code>
+
+<code>LLM inference infra · applied ML · agentic systems · production ML systems</code>
+
+<br/>
 
 **`anuvikt@gmail.com`** · Los Angeles, CA
 

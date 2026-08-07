@@ -20,9 +20,13 @@ jobs:
         uses: Platane/snk@v3
         with:
           github_user_name: ANUVIK2401
+          # Colours mirror scripts/palette.py (crimson/carbon/green): a crimson
+          # snake over contribution dots ramping carbon -> phosphor green.
+          # color_dots takes exactly 5 stops (0 contributions -> highest).
+          # '#' must be percent-encoded as %23 inside the query string.
           outputs: |
             dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/github-contribution-grid-snake-dark.svg?color_snake=%23ff2d46&color_dots=%230d0f14,%230f9d58,%2300c853,%2300e676,%237dffb8
 
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v3
