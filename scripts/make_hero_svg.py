@@ -19,6 +19,8 @@ import os
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0, HERE)
+import palette as P  # noqa: E402
 SRC = sys.argv[1] if len(sys.argv) > 1 else os.path.join(HERE, "..", "source-prepped.png")
 OUT = sys.argv[2] if len(sys.argv) > 2 else os.path.join(HERE, "..", "assets", "hero.svg")
 
@@ -55,11 +57,11 @@ CANVAS_W = LEFT_W + RIGHT_W
 # art_top (TITLEBAR_H+26) + ART_H + room for the footer caption below the fade
 CANVAS_H = TITLEBAR_H + 26 + ART_H + 34
 
-# ---- palette (Dracula, matched to terminal.svg) ---------------------------
-INK = "#c9d1d9"
-CURSOR = "#8be9fd"
-FRAME = "#30363d"
-DIM = "#6272a4"
+# ---- palette (see scripts/palette.py) -------------------------------------
+INK = P.INK
+CURSOR = P.SUCCESS
+FRAME = P.FRAME
+DIM = P.DIM
 
 ROW_DUR = 0.09
 STAGGER = 0.09
@@ -107,10 +109,11 @@ p.append(
 p.append(
     '<defs>'
     '<linearGradient id="nbd" x1="0" y1="0" x2="1" y2="1">'
-    '<stop offset="0" stop-color="#bd93f9"/><stop offset="0.5" stop-color="#8be9fd"/>'
-    '<stop offset="1" stop-color="#ff79c6"/></linearGradient>'
+    f'<stop offset="0" stop-color="{P.BORDER_STOPS[0]}"/>'
+    f'<stop offset="0.55" stop-color="{P.BORDER_STOPS[1]}"/>'
+    f'<stop offset="1" stop-color="{P.BORDER_STOPS[2]}"/></linearGradient>'
     '<linearGradient id="pbg" x1="0" y1="0" x2="0" y2="1">'
-    '<stop offset="0" stop-color="#1c1d2b"/><stop offset="1" stop-color="#101018"/>'
+    f'<stop offset="0" stop-color="{P.BG_RAISED}"/><stop offset="1" stop-color="{P.BG_DEEP}"/>'
     '</linearGradient>'
     '<filter id="glow" x="-60%" y="-60%" width="220%" height="220%">'
     '<feGaussianBlur stdDeviation="2.5" result="b"/>'
@@ -139,9 +142,10 @@ p.append("""<style>
     .mono { font-family: 'SF Mono','Fira Code','JetBrains Mono',Menlo,Consolas,monospace; font-size: 14px; }
     .big { font-size: 21px; font-weight: bold; }
     .sm { font-size: 12px; } .xs { font-size: 11px; }
-    .green { fill: #50fa7b; } .cyan { fill: #8be9fd; } .purple { fill: #bd93f9; }
-    .pink { fill: #ff79c6; } .yellow { fill: #f1fa8c; } .orange { fill: #ffb86c; }
-    .fg { fill: #f8f8f2; } .dim { fill: #6272a4; }
+""" + f"""    .green {{ fill: {P.SUCCESS}; }} .cyan {{ fill: {P.SUCCESS_DIM}; }} .purple {{ fill: {P.ACCENT}; }}
+    .pink {{ fill: {P.ACCENT_SOFT}; }} .yellow {{ fill: {P.HILITE}; }} .orange {{ fill: {P.WARN}; }}
+    .fg {{ fill: {P.FG}; }} .dim {{ fill: {P.DIM}; }}
+""" + """
     .line { opacity: 0; animation: pop .35s ease-out forwards; }
     @keyframes pop { from { opacity: 0; transform: translateX(-6px); } to { opacity: 1; transform: translateX(0); } }
     .l1{animation-delay:.2s} .l2{animation-delay:.7s} .l3{animation-delay:1.3s}
@@ -161,10 +165,10 @@ p.append("""<style>
 p.append(f'<rect x="1" y="1" width="{CANVAS_W-2}" height="{CANVAS_H-2}" rx="12" '
          f'fill="url(#pbg)" stroke="url(#nbd)" stroke-width="2"/>')
 p.append(f'<rect x="1" y="1" width="{CANVAS_W-2}" height="{CANVAS_H-2}" rx="12" '
-         f'fill="#bd93f9" class="scan" opacity=".05"/>')
+         f'fill="{P.ACCENT}" class="scan" opacity=".05"/>')
 p.append(f'<path d="M1 13 A12 12 0 0 1 13 1 H{CANVAS_W-13} A12 12 0 0 1 {CANVAS_W-1} 13 '
-         f'V{TITLEBAR_H} H1 Z" fill="#10111a"/>')
-for i, c in enumerate(["#ff5f56", "#ffbd2e", "#27c93f"]):
+         f'V{TITLEBAR_H} H1 Z" fill="{P.BG_PANEL}"/>')
+for i, c in enumerate([P.DOT_RED, P.DOT_AMBER, P.DOT_GREEN]):
     p.append(f'<circle cx="{24 + i*20}" cy="19" r="6" fill="{c}"/>')
 p.append(f'<text x="{CANVAS_W/2}" y="24" text-anchor="middle" class="mono sm dim">'
          f'anuvik@ai-systems — zsh — {CANVAS_W}x{CANVAS_H}</text>')
@@ -205,14 +209,14 @@ BAR_W = BAR_MAX_X - BAR_X
 PCT_X = DIVIDER_X - LEFT_GUTTER              # right-anchored label
 
 bars = [
-    ("LLM Inference", "pink", "#ff79c6", 0.94, "94%", "l5", "b1", 194),
-    ("Agents / LangGraph", "cyan", "#8be9fd", 0.90, "90%", "l6", "b2", 222),
-    ("Prod Observability", "green", "#50fa7b", 0.96, "96%", "l7", "b3", 250),
+    ("LLM Inference", "pink", P.ACCENT, 0.94, "94%", "l5", "b1", 194),
+    ("Agents / LangGraph", "cyan", P.WARN, 0.90, "90%", "l6", "b2", 222),
+    ("Prod Observability", "green", P.SUCCESS, 0.96, "96%", "l7", "b3", 250),
 ]
 for label, cls, col, frac, pct, lc, bc, y in bars:
     p.append(f'<text x="28" y="{y}" class="line {lc}"><tspan class="{cls}">{label}</tspan></text>')
     p.append(f'<rect x="{BAR_X}" y="{y-10}" width="{BAR_W}" height="12" rx="6" '
-             f'fill="#44475a" class="line {lc}"/>')
+             f'fill="{P.TRACK}" class="line {lc}"/>')
     p.append(f'<rect x="{BAR_X}" y="{y-10}" width="{BAR_W*frac:.0f}" height="12" rx="6" '
              f'fill="{col}" class="bar {bc}" filter="url(#glow)"/>')
     p.append(f'<text x="{PCT_X}" y="{y}" class="line {lc} {cls} sm" text-anchor="end">{pct}</text>')

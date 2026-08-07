@@ -26,6 +26,8 @@ import os
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0, HERE)
+import palette as P  # noqa: E402
 # defaults to the prepped grayscale image (see prep_photo.py), which already
 # has the background removed + local contrast applied.
 SRC = sys.argv[1] if len(sys.argv) > 1 else os.path.join(HERE, "..", "source-prepped.png")
@@ -58,13 +60,13 @@ ART_H = ROWS * CELL_H
 CANVAS_W = ART_W + PAD * 2
 CANVAS_H = TITLEBAR_H + ART_H + STATUS_H + PAD
 
-# Dracula palette, matching assets/terminal.svg
-BG = "#101018"
-BG2 = "#1c1d2b"
-FRAME = "#30363d"
-TITLE_TEXT = "#6272a4"
-INK = "#c9d1d9"       # the single ascii color
-CURSOR = "#8be9fd"
+# see scripts/palette.py
+BG = P.BG_DEEP
+BG2 = P.BG_RAISED
+FRAME = P.FRAME
+TITLE_TEXT = P.DIM
+INK = P.INK           # the single ascii color
+CURSOR = P.SUCCESS
 
 # ---- fade: fraction of the art height that dissolves at top / bottom ------
 FADE_TOP = 0.10
@@ -154,7 +156,7 @@ parts.append(f'<rect x="0.5" y="0.5" width="{CANVAS_W-1}" height="{CANVAS_H-1}" 
              f'fill="none" stroke="{FRAME}" stroke-width="1"/>')
 
 parts.append(f'<line x1="0" y1="{TITLEBAR_H}" x2="{CANVAS_W}" y2="{TITLEBAR_H}" stroke="{FRAME}"/>')
-for i, dotcol in enumerate(["#ff5555", "#f1fa8c", "#50fa7b"]):
+for i, dotcol in enumerate([P.DOT_RED, P.DOT_AMBER, P.DOT_GREEN]):
     parts.append(f'<circle cx="{PAD + i*16}" cy="{TITLEBAR_H/2}" r="5" fill="{dotcol}"/>')
 parts.append(f'<text x="{CANVAS_W/2}" y="{TITLEBAR_H/2 + 4}" fill="{TITLE_TEXT}" font-size="12" '
              f'text-anchor="middle">anuvik@github: ~$ ./portrait.sh</text>')

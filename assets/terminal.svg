@@ -1,10 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="820" height="430" viewBox="0 0 820 430" fill="none">
   <defs>
-    <linearGradient id="nbd" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#bd93f9"/><stop offset="0.5" stop-color="#8be9fd"/><stop offset="1" stop-color="#ff79c6"/>
-    </linearGradient>
+    <linearGradient id="nbd" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ff2d46"/><stop offset="0.55" stop-color="#ff7043"/><stop offset="1" stop-color="#00e676"/></linearGradient>
     <linearGradient id="pbg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#1c1d2b"/><stop offset="1" stop-color="#101018"/>
+      <stop offset="0" stop-color="#141821"/><stop offset="1" stop-color="#08090c"/>
     </linearGradient>
     <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
       <feGaussianBlur stdDeviation="2.5" result="b"/>
@@ -15,9 +13,9 @@
     .mono { font-family: 'SF Mono','Fira Code','JetBrains Mono',Menlo,Consolas,monospace; font-size: 14px; }
     .big { font-size: 21px; font-weight: bold; }
     .sm { font-size: 12px; }
-    .green { fill: #50fa7b; } .cyan { fill: #8be9fd; } .purple { fill: #bd93f9; }
-    .pink { fill: #ff79c6; } .yellow { fill: #f1fa8c; } .orange { fill: #ffb86c; }
-    .fg { fill: #f8f8f2; } .dim { fill: #6272a4; }
+    .green { fill: #00e676; } .cyan { fill: #7dffb8; } .purple { fill: #ff2d46; }
+    .pink { fill: #ff6b6b; } .yellow { fill: #ffd54f; } .orange { fill: #ffab40; }
+    .fg { fill: #e8ecf2; } .dim { fill: #727f92; }
     .line { opacity: 0; animation: pop .35s ease-out forwards; }
     @keyframes pop { from { opacity: 0; transform: translateX(-6px); } to { opacity: 1; transform: translateX(0); } }
     .l1{animation-delay:.2s} .l2{animation-delay:.7s} .l3{animation-delay:1.3s}
@@ -35,8 +33,8 @@
 
   <!-- window -->
   <rect x="1" y="1" width="818" height="428" rx="12" fill="url(#pbg)" stroke="url(#nbd)" stroke-width="2"/>
-  <rect x="1" y="1" width="818" height="428" rx="12" fill="#bd93f9" class="scan" opacity=".05"/>
-  <path d="M1 13 A12 12 0 0 1 13 1 H807 A12 12 0 0 1 819 13 V36 H1 Z" fill="#10111a"/>
+  <rect x="1" y="1" width="818" height="428" rx="12" fill="#ff2d46" class="scan" opacity=".05"/>
+  <path d="M1 13 A12 12 0 0 1 13 1 H807 A12 12 0 0 1 819 13 V36 H1 Z" fill="#0d0f14"/>
   <circle cx="24" cy="19" r="6" fill="#ff5f56"/>
   <circle cx="44" cy="19" r="6" fill="#ffbd2e"/>
   <circle cx="64" cy="19" r="6" fill="#27c93f"/>
@@ -52,18 +50,18 @@
     <text x="28" y="168" class="line l4"><tspan class="green">➜</tspan><tspan class="cyan" dx="10">~</tspan><tspan class="fg" dx="10">htop --skills</tspan></text>
 
     <text x="28" y="194" class="line l5"><tspan class="pink">LLM Inference</tspan></text>
-    <rect x="220" y="184" width="480" height="12" rx="6" fill="#44475a" class="line l5"/>
-    <rect x="220" y="184" width="450" height="12" rx="6" fill="#ff79c6" class="bar b1" filter="url(#glow)"/>
+    <rect x="220" y="184" width="480" height="12" rx="6" fill="#242a36" class="line l5"/>
+    <rect x="220" y="184" width="450" height="12" rx="6" fill="#ff6b6b" class="bar b1" filter="url(#glow)"/>
     <text x="712" y="194" class="line l5 pink sm">94%</text>
 
     <text x="28" y="222" class="line l6"><tspan class="cyan">Agents / LangGraph</tspan></text>
-    <rect x="220" y="212" width="480" height="12" rx="6" fill="#44475a" class="line l6"/>
-    <rect x="220" y="212" width="430" height="12" rx="6" fill="#8be9fd" class="bar b2" filter="url(#glow)"/>
+    <rect x="220" y="212" width="480" height="12" rx="6" fill="#242a36" class="line l6"/>
+    <rect x="220" y="212" width="430" height="12" rx="6" fill="#7dffb8" class="bar b2" filter="url(#glow)"/>
     <text x="712" y="222" class="line l6 cyan sm">90%</text>
 
     <text x="28" y="250" class="line l7"><tspan class="green">Prod Observability</tspan></text>
-    <rect x="220" y="240" width="480" height="12" rx="6" fill="#44475a" class="line l7"/>
-    <rect x="220" y="240" width="460" height="12" rx="6" fill="#50fa7b" class="bar b3" filter="url(#glow)"/>
+    <rect x="220" y="240" width="480" height="12" rx="6" fill="#242a36" class="line l7"/>
+    <rect x="220" y="240" width="460" height="12" rx="6" fill="#00e676" class="bar b3" filter="url(#glow)"/>
     <text x="712" y="250" class="line l7 green sm">96%</text>
 
     <!-- receipts -->

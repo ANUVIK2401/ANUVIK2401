@@ -1,10 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="262" height="250" viewBox="0 0 262 250" fill="none">
   <defs>
-    <linearGradient id="nbd" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#bd93f9"/><stop offset="0.5" stop-color="#8be9fd"/><stop offset="1" stop-color="#ff79c6"/>
-    </linearGradient>
+    <linearGradient id="nbd" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ff2d46"/><stop offset="0.55" stop-color="#ff7043"/><stop offset="1" stop-color="#00e676"/></linearGradient>
     <linearGradient id="pbg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#1c1d2b"/><stop offset="1" stop-color="#101018"/>
+      <stop offset="0" stop-color="#141821"/><stop offset="1" stop-color="#08090c"/>
     </linearGradient>
     <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
       <feGaussianBlur stdDeviation="2.5" result="b"/>
@@ -14,9 +12,9 @@
   <style>
     .mono { font-family:'SF Mono','Fira Code','JetBrains Mono',Menlo,Consolas,monospace; font-size:11px; }
     .xs { font-size:9.5px; }
-    .green{fill:#50fa7b}.cyan{fill:#8be9fd}.purple{fill:#bd93f9}.pink{fill:#ff79c6}
-    .yellow{fill:#f1fa8c}.orange{fill:#ffb86c}.fg{fill:#f8f8f2}.dim{fill:#6272a4}.red{fill:#ff5555}
-    .edge { stroke:#6272a4; stroke-width:1.2; stroke-dasharray:4 3; animation:flow 1.4s linear infinite; }
+    .green{fill:#00e676}.cyan{fill:#7dffb8}.purple{fill:#ff2d46}.pink{fill:#ff6b6b}
+    .yellow{fill:#ffd54f}.orange{fill:#ffab40}.fg{fill:#e8ecf2}.dim{fill:#727f92}.red{fill:#ff2d46}
+    .edge { stroke:#727f92; stroke-width:1.2; stroke-dasharray:4 3; animation:flow 1.4s linear infinite; }
     @keyframes flow { to { stroke-dashoffset:-7; } }
     .fraud { animation:fraud 1.6s ease-in-out infinite; }
     @keyframes fraud { 0%,100%{opacity:.35} 50%{opacity:1} }
@@ -24,7 +22,7 @@
     @keyframes hop { 0%,100%{opacity:.3} 50%{opacity:1} }
   </style>
   <rect x="1" y="1" width="260" height="248" rx="12" fill="url(#pbg)" stroke="url(#nbd)" stroke-width="2"/>
-  <path d="M1 13 A12 12 0 0 1 13 1 H249 A12 12 0 0 1 261 13 V30 H1 Z" fill="#10111a"/>
+  <path d="M1 13 A12 12 0 0 1 13 1 H249 A12 12 0 0 1 261 13 V30 H1 Z" fill="#0d0f14"/>
   <circle cx="18" cy="15" r="4.5" fill="#ff5f56"/>
   <circle cx="33" cy="15" r="4.5" fill="#ffbd2e"/>
   <circle cx="48" cy="15" r="4.5" fill="#27c93f"/>
@@ -42,29 +40,29 @@
     <line x1="60" y1="76" x2="60" y2="150" class="edge"/>
 
     <!-- message passing packet -->
-    <circle r="2.5" fill="#8be9fd" class="msg">
+    <circle r="2.5" fill="#ffd54f" class="msg">
       <animateMotion dur="2.2s" repeatCount="indefinite" path="M60 76 L131 110 L205 150"/>
     </circle>
 
     <!-- nodes -->
-    <circle cx="131" cy="110" r="17" fill="#ff5555" class="fraud" filter="url(#glow)"/>
-    <circle cx="131" cy="110" r="17" fill="#10111a" stroke="#ff5555" stroke-width="1.5"/>
+    <circle cx="131" cy="110" r="17" fill="#ff2d46" class="fraud" filter="url(#glow)"/>
+    <circle cx="131" cy="110" r="17" fill="#0d0f14" stroke="#ff2d46" stroke-width="1.5"/>
     <text x="131" y="114" text-anchor="middle" class="xs red">txn ⚠</text>
 
-    <circle cx="60" cy="76" r="14" fill="#10111a" stroke="#8be9fd"/>
+    <circle cx="60" cy="76" r="14" fill="#0d0f14" stroke="#7dffb8"/>
     <text x="60" y="80" text-anchor="middle" class="xs cyan">user</text>
-    <circle cx="205" cy="76" r="14" fill="#10111a" stroke="#bd93f9"/>
-    <text x="205" y="80" text-anchor="middle" class="xs purple">card</text>
-    <circle cx="60" cy="150" r="14" fill="#10111a" stroke="#50fa7b"/>
+    <circle cx="205" cy="76" r="14" fill="#0d0f14" stroke="#ffd54f"/>
+    <text x="205" y="80" text-anchor="middle" class="xs yellow">card</text>
+    <circle cx="60" cy="150" r="14" fill="#0d0f14" stroke="#00e676"/>
     <text x="60" y="154" text-anchor="middle" class="xs green">device</text>
-    <circle cx="205" cy="150" r="14" fill="#10111a" stroke="#ffb86c"/>
-    <text x="205" y="154" text-anchor="middle" class="xs orange">ip</text>
+    <circle cx="205" cy="150" r="14" fill="#0d0f14" stroke="#727f92"/>
+    <text x="205" y="154" text-anchor="middle" class="xs dim">ip</text>
 
     <text x="16" y="190" class="xs"><tspan class="green">92% ROC-AUC</tspan><tspan class="dim" dx="6">vs XGBoost / LightGBM ✗</tspan></text>
     <text x="16" y="207" class="xs dim">focal loss + weighted sampling · IEEE-CIS</text>
   </g>
 
-  <rect x="1" y="222" width="260" height="27" rx="12" fill="#10111a"/>
-  <rect x="1" y="222" width="260" height="10" fill="#10111a"/>
+  <rect x="1" y="222" width="260" height="27" rx="12" fill="#0d0f14"/>
+  <rect x="1" y="222" width="260" height="10" fill="#0d0f14"/>
   <text x="131" y="239" text-anchor="middle" class="mono xs"><tspan class="pink">⬡</tspan><tspan class="dim" dx="5">pytorch · dgl · heterogeneous graph</tspan></text>
 </svg>

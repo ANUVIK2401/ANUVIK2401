@@ -1,10 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="262" height="250" viewBox="0 0 262 250" fill="none">
   <defs>
-    <linearGradient id="nbd" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#bd93f9"/><stop offset="0.5" stop-color="#8be9fd"/><stop offset="1" stop-color="#ff79c6"/>
-    </linearGradient>
+    <linearGradient id="nbd" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ff2d46"/><stop offset="0.55" stop-color="#ff7043"/><stop offset="1" stop-color="#00e676"/></linearGradient>
     <linearGradient id="pbg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#1c1d2b"/><stop offset="1" stop-color="#101018"/>
+      <stop offset="0" stop-color="#141821"/><stop offset="1" stop-color="#08090c"/>
     </linearGradient>
     <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
       <feGaussianBlur stdDeviation="2.5" result="b"/>
@@ -14,8 +12,8 @@
   <style>
     .mono { font-family:'SF Mono','Fira Code','JetBrains Mono',Menlo,Consolas,monospace; font-size:11px; }
     .xs { font-size:9.5px; }
-    .green{fill:#50fa7b}.cyan{fill:#8be9fd}.purple{fill:#bd93f9}.pink{fill:#ff79c6}
-    .yellow{fill:#f1fa8c}.orange{fill:#ffb86c}.fg{fill:#f8f8f2}.dim{fill:#6272a4}.red{fill:#ff5555}
+    .green{fill:#00e676}.cyan{fill:#7dffb8}.purple{fill:#ff2d46}.pink{fill:#ff6b6b}
+    .yellow{fill:#ffd54f}.orange{fill:#ffab40}.fg{fill:#e8ecf2}.dim{fill:#727f92}.red{fill:#ff2d46}
     .bar { transform-origin:left; transform:scaleX(0); animation:grow 1s ease-out forwards; }
     @keyframes grow { to { transform:scaleX(1); } }
     .b1{animation-delay:.3s}.b2{animation-delay:.6s}.b3{animation-delay:.9s}
@@ -25,7 +23,7 @@
     @keyframes tw { 0%,100%{opacity:.4} 50%{opacity:1} }
   </style>
   <rect x="1" y="1" width="260" height="248" rx="12" fill="url(#pbg)" stroke="url(#nbd)" stroke-width="2"/>
-  <path d="M1 13 A12 12 0 0 1 13 1 H249 A12 12 0 0 1 261 13 V30 H1 Z" fill="#10111a"/>
+  <path d="M1 13 A12 12 0 0 1 13 1 H249 A12 12 0 0 1 261 13 V30 H1 Z" fill="#0d0f14"/>
   <circle cx="18" cy="15" r="4.5" fill="#ff5f56"/>
   <circle cx="33" cy="15" r="4.5" fill="#ffbd2e"/>
   <circle cx="48" cy="15" r="4.5" fill="#27c93f"/>
@@ -35,18 +33,18 @@
     <text x="16" y="50" class="cyan">GPU memory · Llama-3.2-3B</text>
 
     <text x="16" y="76" class="xs fg">fp16</text>
-    <rect x="52" y="66" width="160" height="12" rx="6" fill="#44475a"/>
-    <rect x="52" y="66" width="160" height="12" rx="6" fill="#ff5555" class="bar b1"/>
+    <rect x="52" y="66" width="160" height="12" rx="6" fill="#242a36"/>
+    <rect x="52" y="66" width="160" height="12" rx="6" fill="#ff2d46" class="bar b1"/>
     <text x="218" y="76" class="xs dim">6128</text>
 
     <text x="16" y="102" class="xs fg">int8</text>
-    <rect x="52" y="92" width="160" height="12" rx="6" fill="#44475a"/>
-    <rect x="52" y="92" width="92" height="12" rx="6" fill="#ffb86c" class="bar b2"/>
+    <rect x="52" y="92" width="160" height="12" rx="6" fill="#242a36"/>
+    <rect x="52" y="92" width="92" height="12" rx="6" fill="#ffab40" class="bar b2"/>
     <text x="218" y="102" class="xs dim">3515</text>
 
     <text x="16" y="128" class="xs fg">int4</text>
-    <rect x="52" y="118" width="160" height="12" rx="6" fill="#44475a"/>
-    <rect x="52" y="118" width="60" height="12" rx="6" fill="#50fa7b" class="bar b3" filter="url(#glow)"/>
+    <rect x="52" y="118" width="160" height="12" rx="6" fill="#242a36"/>
+    <rect x="52" y="118" width="60" height="12" rx="6" fill="#00e676" class="bar b3" filter="url(#glow)"/>
     <text x="218" y="128" class="xs dim">2299</text>
 
     <g class="win">
@@ -56,7 +54,7 @@
     <text x="16" y="205" class="xs dim">8 configs · 2 models · T4 GPU</text>
   </g>
 
-  <rect x="1" y="222" width="260" height="27" rx="12" fill="#10111a"/>
-  <rect x="1" y="222" width="260" height="10" fill="#10111a"/>
+  <rect x="1" y="222" width="260" height="27" rx="12" fill="#0d0f14"/>
+  <rect x="1" y="222" width="260" height="10" fill="#0d0f14"/>
   <text x="131" y="239" text-anchor="middle" class="mono xs"><tspan class="star yellow">★</tspan><tspan class="dim" dx="5">pytorch · bitsandbytes · cuda</tspan></text>
 </svg>

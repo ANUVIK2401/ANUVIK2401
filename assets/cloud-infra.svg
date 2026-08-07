@@ -1,10 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="405" height="250" viewBox="0 0 405 250" fill="none">
   <defs>
-    <linearGradient id="nbd" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#bd93f9"/><stop offset="0.5" stop-color="#8be9fd"/><stop offset="1" stop-color="#ff79c6"/>
-    </linearGradient>
+    <linearGradient id="nbd" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ff2d46"/><stop offset="0.55" stop-color="#ff7043"/><stop offset="1" stop-color="#00e676"/></linearGradient>
     <linearGradient id="pbg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#1c1d2b"/><stop offset="1" stop-color="#101018"/>
+      <stop offset="0" stop-color="#141821"/><stop offset="1" stop-color="#08090c"/>
     </linearGradient>
     <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
       <feGaussianBlur stdDeviation="2.5" result="b"/>
@@ -14,11 +12,11 @@
   <style>
     .mono { font-family:'SF Mono','Fira Code','JetBrains Mono',Menlo,Consolas,monospace; font-size:12px; }
     .xs { font-size:10px; }
-    .green{fill:#50fa7b}.cyan{fill:#8be9fd}.purple{fill:#bd93f9}.pink{fill:#ff79c6}
-    .yellow{fill:#f1fa8c}.orange{fill:#ffb86c}.fg{fill:#f8f8f2}.dim{fill:#6272a4}
-    .wire { stroke:#6272a4; stroke-width:1.5; stroke-dasharray:5 4; animation:flow 1.2s linear infinite; }
+    .green{fill:#00e676}.cyan{fill:#7dffb8}.purple{fill:#ff2d46}.pink{fill:#ff6b6b}
+    .yellow{fill:#ffd54f}.orange{fill:#ffab40}.fg{fill:#e8ecf2}.dim{fill:#727f92}
+    .wire { stroke:#727f92; stroke-width:1.5; stroke-dasharray:5 4; animation:flow 1.2s linear infinite; }
     @keyframes flow { to { stroke-dashoffset:-9; } }
-    .spark { stroke:#50fa7b; stroke-width:2; fill:none; stroke-dasharray:220; stroke-dashoffset:220; animation:draw 3s ease-out infinite; }
+    .spark { stroke:#00e676; stroke-width:2; fill:none; stroke-dasharray:220; stroke-dashoffset:220; animation:draw 3s ease-out infinite; }
     @keyframes draw { 40%{stroke-dashoffset:0} 85%{stroke-dashoffset:0; opacity:1} 100%{stroke-dashoffset:0; opacity:0} }
     .hpa { animation:scaleout 4s ease-in-out infinite; }
     @keyframes scaleout { 0%,25%{opacity:0} 45%,80%{opacity:1} 100%{opacity:0} }
@@ -28,32 +26,32 @@
 
   <!-- window -->
   <rect x="1" y="1" width="403" height="248" rx="12" fill="url(#pbg)" stroke="url(#nbd)" stroke-width="2"/>
-  <path d="M1 13 A12 12 0 0 1 13 1 H392 A12 12 0 0 1 404 13 V32 H1 Z" fill="#10111a"/>
+  <path d="M1 13 A12 12 0 0 1 13 1 H392 A12 12 0 0 1 404 13 V32 H1 Z" fill="#0d0f14"/>
   <circle cx="20" cy="16" r="5" fill="#ff5f56"/>
   <circle cx="37" cy="16" r="5" fill="#ffbd2e"/>
   <circle cx="54" cy="16" r="5" fill="#27c93f"/>
   <text x="202" y="20" text-anchor="middle" class="mono xs dim">aws — prod · k9s</text>
 
   <!-- cluster region -->
-  <rect x="16" y="46" width="234" height="128" rx="10" fill="#10111a" stroke="#ffb86c" stroke-dasharray="6 4"/>
+  <rect x="16" y="46" width="234" height="128" rx="10" fill="#0d0f14" stroke="#ffab40" stroke-dasharray="6 4"/>
   <text x="30" y="66" class="mono xs orange">☁ aws · eks cluster</text>
 
   <!-- pods -->
   <g>
-    <rect x="32" y="82" width="60" height="44" rx="6" fill="#191a26" stroke="#8be9fd"/>
-    <circle cx="44" cy="96" r="3" class="beat" fill="#50fa7b"/>
+    <rect x="32" y="82" width="60" height="44" rx="6" fill="#141821" stroke="#0f9d58"/>
+    <circle cx="44" cy="96" r="3" class="beat" fill="#00e676"/>
     <text x="54" y="100" class="mono xs cyan">pod-1</text>
     <text x="44" y="117" class="mono xs dim">api</text>
   </g>
   <g>
-    <rect x="102" y="82" width="60" height="44" rx="6" fill="#191a26" stroke="#8be9fd"/>
-    <circle cx="114" cy="96" r="3" class="beat" fill="#50fa7b" style="animation-delay:.5s"/>
+    <rect x="102" y="82" width="60" height="44" rx="6" fill="#141821" stroke="#0f9d58"/>
+    <circle cx="114" cy="96" r="3" class="beat" fill="#00e676" style="animation-delay:.5s"/>
     <text x="124" y="100" class="mono xs cyan">pod-2</text>
     <text x="114" y="117" class="mono xs dim">agent</text>
   </g>
   <g class="hpa">
-    <rect x="172" y="82" width="60" height="44" rx="6" fill="#191a26" stroke="#50fa7b"/>
-    <circle cx="184" cy="96" r="3" fill="#50fa7b"/>
+    <rect x="172" y="82" width="60" height="44" rx="6" fill="#141821" stroke="#00e676"/>
+    <circle cx="184" cy="96" r="3" fill="#00e676"/>
     <text x="194" y="100" class="mono xs green">pod-3</text>
     <text x="184" y="117" class="mono xs dim">hpa ↑</text>
   </g>
@@ -63,13 +61,13 @@
   <line x1="250" y1="110" x2="270" y2="110" class="wire"/>
 
   <!-- metrics panel -->
-  <rect x="270" y="46" width="118" height="128" rx="10" fill="#10111a" stroke="#8be9fd"/>
+  <rect x="270" y="46" width="118" height="128" rx="10" fill="#0d0f14" stroke="#0f9d58"/>
   <text x="282" y="66" class="mono xs cyan">prometheus</text>
   <polyline class="spark" filter="url(#glow)" points="282,140 292,132 300,136 310,118 318,126 328,102 338,110 348,92 358,98 376,84"/>
   <text x="282" y="160" class="mono xs"><tspan class="green">p99 ✓</tspan><tspan class="dim" dx="6">slo held</tspan></text>
 
   <!-- status bar -->
-  <rect x="1" y="216" width="403" height="33" rx="12" fill="#10111a"/>
-  <rect x="1" y="216" width="403" height="12" fill="#10111a"/>
+  <rect x="1" y="216" width="403" height="33" rx="12" fill="#0d0f14"/>
+  <rect x="1" y="216" width="403" height="12" fill="#0d0f14"/>
   <text x="202" y="237" text-anchor="middle" class="mono xs"><tspan class="dim">tenants</tspan><tspan class="yellow" dx="6">37K+</tspan><tspan class="dim" dx="12">MTTR</tspan><tspan class="yellow" dx="6">25m</tspan><tspan class="dim" dx="12">infra cost</tspan><tspan class="green" dx="6">−25%</tspan></text>
 </svg>
